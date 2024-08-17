@@ -12,31 +12,36 @@
         <nav class="bg-black bg-opacity-20 absolute z-5 w-screen">
             <div class="flex flex-col md:flex-row md:items-center md:justify-around md:w-full">
                 <div class="flex flex-row justify-between items-center">
-                <!--LOGO-->
+                <!--Menu movil-->
+                <div id="menu-toggle" class="ml-4 p-8 text-white md:hidden"><span class="material-symbols-outlined">
+                    menu</span>
+                </div>
+                    <!--LOGO-->
                 <div class="flex flex-row ml-4">
                     <img src="assets/img/maratonlogo.png" class="p-4 h-28 w-full">
                 </div>
-                <!--Menu movil-->
-                <div id="menu-toggle" class="mr-4 p-8 text-white md:hidden"><span class="material-symbols-outlined">
-                    menu
-                    </span></div>
+                <button class="bg-pink-400 text-white text-lg mr-10 md:ml-5 p-2 hover:bg-white hover:text-pink-400 rounded-md md:hidden">Inscribite</button>
                 </div>
                 
                 <!--Menu-->
-                <div id="menu" class="hidden w-1/4 md:flex md:flex-row md:w-2/4 md:justify-end">
-                    <ul class="md:flex md:flex-row p-4 items-center">
-                        <li class="text-white text-lg pl-4 pr-4 ml-2 mr-2 hover:text-pink-600 hover:bg-white hover:rounded-full"><a href="">Inicio</a></li>
-                        <li class="text-white text-lg pl-4 pr-4 ml-2 mr-2 hover:text-pink-600 hover:bg-white hover:rounded-full "><a href="">Ediciones</a></li>
-                        <li class="text-white text-lg pl-4 pr-4 ml-2 mr-2 hover:text-pink-600 hover:bg-white hover:rounded-full "><a href="">Recorrido</a></li>
-                        <button class="bg-pink-600 text-white text-lg hover:border-r-rose-600 ml-5 pl-5 pr-5 pt-3 pb-3 rounded-full">Inscribite</button>
+                <div id="menu" class="hidden w-full items-center md:flex md:flex-row md:w-2/4 md:justify-end">
+                    <ul class="flex flex-col items-center md:flex-row p-4">
+                        <li class="text-white font-medium uppercase pl-4 pr-4 ml-4 mr-4 border-2 rounded-md border-transparent hover:border-pink-400"><a href="" class="border-white ">Inicio</a></li>
+                        <li class="text-white font-medium uppercase pl-4 pr-4 ml-4 mr-4 border-2 rounded-md border-transparent hover:border-pink-400"><a href="" class="">Ediciones</a></li>
+                        <li class="text-white font-medium uppercase pl-4 pr-4 ml-2 mr-2 border-2 rounded-md border-transparent hover:border-pink-400"><a href="" class="">Recorrido</a></li>
+                        <button class="hidden bg-pink-400 text-white text-lg md:ml-5 p-2  md:block hover:bg-white hover:text-pink-400 rounded-md">Inscribite</button>
                     </ul>
                 </div>
             </div>
         </nav>
-        <section class="z-1 h-full object-">
-            <img src="assets/img/2.png" class="h-full" alt="">
+        
+        <section class="z-1">
+            <img src="assets/img/2.png" class="h-screen object-cover" alt="">
         </section>
     </header>
+    <section>
+        
+    </section>
 
 
     <script src="js/menu.js"></script>
