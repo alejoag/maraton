@@ -590,6 +590,14 @@ video {
   margin: 2.5rem;
 }
 
+.m-1 {
+  margin: 0.25rem;
+}
+
+.m-2 {
+  margin: 0.5rem;
+}
+
 .ml-2 {
   margin-left: 0.5rem;
 }
@@ -933,6 +941,10 @@ video {
     visibility: visible;
   }
 
+  .md\:m-10 {
+    margin: 2.5rem;
+  }
+
   .md\:ml-5 {
     margin-left: 1.25rem;
   }
@@ -975,5 +987,13 @@ video {
 
   .md\:justify-around {
     justify-content: space-around;
+  }
+
+  .md\:pl-5 {
+    padding-left: 1.25rem;
+  }
+
+  .md\:pr-5 {
+    padding-right: 1.25rem;
   }
 }
